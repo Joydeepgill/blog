@@ -29,12 +29,20 @@ Time Complexities:
  0(n) (worst case)
   - Note: The tree has to be either skewed to the right or the left.  
 
-O(1) (best case)
+ O(1) (best case)
   - Note: this occurs when the tree is skewed to the right, and the node being inserted belongs to the 
   left subtree (or vice versa). 
  
- **TODO ~ Deletion: 
-  - 
+ **TODO -- Look into code samples of this ~ Deletion:
+  - Deleting a node involves a few different cases: 
+    - A) Node to be deleted is a leaf node 
+    - B) Node to be deleted has 1 child 
+      - Make the parents point to the child instead of the node to be deleted 
+    - C) Node to be deleted has 2 children 
+      - Find the minimum node on the right sub-tree and copy that value in the targeted node. Then, 
+      delete the duplicate from the right sub-tree 
+      - Find the maximum node on the left sub-tree and copy that value in the targeted node. Then, 
+      delete the duplicate from the left sub-tree 
 
 
 {% highlight ruby %}
