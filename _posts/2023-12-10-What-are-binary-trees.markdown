@@ -10,7 +10,7 @@ Each node contains a value, as well as a left and right pointer. Child nodes als
 
 See the image below for an example of a binary tree: 
 
-[![Alt Text](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*tUBYCHi32Zj0B2UCw0qmlA.png)(https://medium.com/)]
+![Alt Text](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*tUBYCHi32Zj0B2UCw0qmlA.png)
 
 
 You can go from the root node to any other node in the tree in O(logn) traversals. 
